@@ -6,5 +6,5 @@ H = float(input("Escribe la altura del triangulo: "))
 #se hace la operacion para hallar el area del terreno en forma triangular
 A = float((B * H) / 2)
 # Se mostrara al usuario el resulado de la operacion y se despedira al ususario
-print ("EL area del triangulo es: ",(A))
+print ("EL area del triangulo es:",(A), "metros cuadrados")
 print ("gracias por usar nuestra calculadora, !Feliz Día!")
