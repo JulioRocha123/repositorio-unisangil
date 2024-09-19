@@ -13,7 +13,7 @@ while opcion != 6:
             num1 = float(input("Ingresa el primer numero: "))
             num2 = float(input("Ingresa el segundo numero: "))
             res = num1 - num2
-            print ("resta")
+            print ("el resuldato de la resta es: ", res)
         elif opcion == 3:
             num1 = float(input("Ingresa el primer numero: "))
             num2 = float(input("Ingresa el segundo numero: "))
