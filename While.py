@@ -2,7 +2,7 @@ opcion = 0
 print ("bienvenido a la calculadora")
 print ("Menu \n1) Suma \n2) Resta \n3) Multipliación \n4) Divición \n5) potencia")
 opcion = int(input("Elige una opción: "))
-while opcion != 6:
+while opcion != 7:
     try:
         if opcion == 1:
             num1 = float(input("Ingresa el primer numero: "))
@@ -30,12 +30,18 @@ while opcion != 6:
             res = num1 ** num2
             print ("potencia")
         elif opcion == 6:
-            print ("salir")
+            num1 = float(input("Ingresa el primer numero: "))
+            if num1 < 0:
+                print ("El numero no es correcto, porfavor digite un valor pisitivo")
+            else:
+                raiz = num1 ** 0.5
+                print ("el resultado de la raiz es: ", raiz)
+        elif opcion == 7:
+            print ("Gracias por usarnos")
     except ValueError:
         print("registra un valor diferente")
-    else:
+else:
         print("digite un valor correcto")
-        break
 
 
 print ("gracias por usar la calculadora")

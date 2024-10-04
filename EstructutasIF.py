@@ -3,6 +3,7 @@ edad = float(input("Ingrese su edad: "))
 if (edad <= 0):
     print("usted es un preinfante ")
 elif (edad > 0 and edad <= 5):
+    elif ()
     print ("usted es un primera infante")
 elif (edad >= 6 and edad <= 11):
     print ("usted es un infante")
