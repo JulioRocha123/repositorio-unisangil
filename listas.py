@@ -11,7 +11,7 @@ print (x[0:])# si se deja solo los dos puntos: se imprime desde el inico hasta e
 print (f"la lista con numeros negativos es: {x[-4:-1]}") #si se desea ver una lista en orden negativo primero va de menor a mayor siendo el mayor el numero mas cercano a 0
 #agregar datos a la lista
 b = [1,5]
-b.append (100) #.append se utliza para añadir datos a la lista pero se ñaden en la ultima posicion
+b.append (100) #.append se utliza para añadir datos a la lista pero se añaden en la ultima posicion
 b.append ("julitorocha247@gmail.com")#.append se utiliza para cualquier tipo de variable
 #tamaño lista
 longitud = b.__len__() #.len ayuda a identificar el tamaño de la lista
@@ -51,6 +51,7 @@ for i in b:
     print (f"el dato en la posicion {c} = {i}")
 #ordenar datos
 r = [10,8,20,6,80]
+large = r.__len__()
 print (r)
 r.sort() #.sort ayuda a organizar los datos de menor a mayor y si o si tiene que hacer afuera de un print
 print (f"la lista ordenada de menor a mayor utilizando .sort es: {r}")
@@ -59,5 +60,5 @@ r.sort(reverse = True) #el parametro reverse=true se utiliza para organizar los 
 print (f"la lista ordenada de mayor a menor utilizando .sort(reverse=true) es: {r}")
 suma = 0
 for i in r:
-    suma += i
-    print (suma)
+    v = (suma + i) / large
+    print (v)
